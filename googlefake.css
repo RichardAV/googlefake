@@ -1,0 +1,136 @@
+/* ESTILOS GENERALES */
+body {
+    background: bfbfbf;
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 4em;
+    text-align: center;
+    font-weight: bolder;
+}
+p {
+    font-size: 0.8em;
+    color: grey;
+    font-wieght: bold;
+}
+/** ESTILOS GENERALES **/
+/* ESTILOS NAV */
+#menu-top {
+    width: auto; 
+    height: 50px;
+    margin-right: 20px;
+    list-style: none;
+    position: relative;
+    /*background: lightblue;*/
+}
+.liuno {
+    /*display: inline-block;*/
+    float: right;
+    width: 40px;
+    height: 40px;
+    background: grey;
+    margin: 3px 7px;   
+}
+.avatar {
+    border-radius: 50px;
+}
+.notificaciones {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 20px;
+    transform: translateY(-50%);
+}
+.cuadros-apps {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 20px;
+    transform: translateY(-50%);
+}
+.gmail-imagenes {
+    text-decoration: none;
+    font-size: 0.8em;
+    background: none;
+    color: grey;
+    position: relative;
+    top: 30px;
+    right: 25px;
+    transform: translateY(-50%);
+}
+/** ESTILOS NAV **/
+/*ESTILOS CENTRO*/
+.centro {
+    
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    /*position: relative;*/
+}
+.centro-interior {
+    position: relative;
+    top: 17%;
+}
+.logo {
+    width: 270px;
+    height: 90px;
+    position: relative;
+    margin: 50px 50%;
+    transform: translateX(-50%)
+
+}
+.search-box {
+    border-radius: 4px;
+    /*border: 2px solid lightgrey;*/
+    width: 600px;
+    height: 40px;
+    background: white;
+    position: relative;
+    
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px grey;
+}
+.mic {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 20px;
+    float: right;
+    width: 10px;
+    height: 20px;
+    background: blue;
+    border-radius: 5px;
+}
+.cursor {
+    width: 1px;
+    height: 20px;
+    background: black;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 13px;
+}
+.botones-inferiores-contenedor {
+    
+    margin: 2em 0;
+    padding: 1em;
+    text-align: center;
+}
+.botones-inferiores-contenedor > a {
+    margin: 0 15px;
+    color: grey;
+    padding: 9px 13px;
+    font-weight: bold;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+.botones-inferiores-contenedor > a:hover {
+    color: black;
+    border: 1px solid lightgrey;
+    border-radius: 2px;    
+}
+.offered {
+    margin: -1.8em;
+}
+/**ESTILOS CENTRO**/

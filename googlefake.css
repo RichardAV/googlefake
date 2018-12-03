@@ -123,7 +123,7 @@ p {
     padding: 9px 13px;
     font-weight: bold;
     font-size: 0.8em;
-    cursor: pointer;
+    cursor: pointer; 
 }
 .botones-inferiores-contenedor > a:hover {
     color: black;
